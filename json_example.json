@@ -1,0 +1,16 @@
+{
+  "name": "Иван",
+  "age": 30,
+  "is_student": false,
+  "courses": [
+    "python",
+    "api",
+    "QA",
+    {
+      "name": "Alianc"
+    }
+  ],
+  "adress": {"city": "moscow",
+    "zipcode": 32121
+  }
+}
