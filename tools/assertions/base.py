@@ -1,5 +1,7 @@
 from typing import Any
 
+from clients.authentication.authentication_schema import LoginResponseSchema
+
 
 def assert_status_code(actual: int, expected: int):
     """
@@ -28,4 +30,17 @@ def assert_equal(actual: Any, expected: Any, name: str):
         f'Incorrect value: "{name}". '
         f'Expected value: {expected}. '
         f'Actual value: {actual}'
+    )
+
+def assert_is_true(actual: Any, name: str):
+    """
+    Проверяет, что фактическое значение является истинным.
+
+    :param actual: Фактическое значение.
+    :param name: Название проверяемого значения.
+    :raises AssertionError: Если фактическое значение не равно ожидаемому.
+    """
+    assert actual, (
+        f'Incorrect value: "{name}". '
+        f'Expected true value but got: {actual}'
     )
