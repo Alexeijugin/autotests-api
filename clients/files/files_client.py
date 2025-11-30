@@ -9,7 +9,7 @@ from clients.files.files_schema import CreateFileRequestSchema, CreateFileRespon
 
 class FilesClient(APIClient):
     def get_file_api(self, file_id: str) -> Response:
-        return self.get(f"/api/v1/files{file_id}")
+        return self.get(f"/api/v1/files/{file_id}")
 
     def create_file_api(self, request: CreateFileRequestSchema) -> Response:
         """
