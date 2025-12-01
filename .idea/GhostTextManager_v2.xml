@@ -3,6 +3,18 @@
   <component name="GhostTextManager">
     <option name="inputs">
       <map>
+        <entry key="где-то возникает ошибка валидации..">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764553147689" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="запускаю python -m pytest -k &quot;test_get_file&quot;&#10;ошибка self = &lt;tests.files.test_files.TestFiles object at 0x00000205787FF250&gt;, files_client = &lt;clients.files.files_client.FilesClient object at 0x0000020578965D30&gt;&#10;function_file = FileFixture(request=CreateFileRequestSchema(filename='5446a07a-8c52-42bf-9461-499b4fd7483a.png', directory='tests', up...s/5446a07a-8c52-42bf-9461-499b4fd7483a.png'), filename='5446a07a-8c52-42bf-9461-499b4fd7483a.png', directory='tests')))&#10;&#10;    def test_get_file(self, files_client: FilesClient, function_file: FileFixture):&#10;        response = files_client.get_file_api(function_file.response.file.id)&#10;&gt;       response_data = GetFileResponseSchema.model_validate_json(response.text)&#10;                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;E       pydantic_core._pydantic_core.ValidationError: 1 validation error for GetFileResponseSchema&#10;E       file&#10;E         Field required [type=missing, input_value={'detail': 'Not Found'}, input_type=dict]&#10;E           For further information visit https://errors.pydantic.dev/2.12/v/missing&#10;&#10;tests\files\test_files.py:29: ValidationError&#10;===================================================================================================== short test summary info ===================================================================================================== &#10;FAILED tests/files/test_files.py::TestFiles::test_get_file - pydantic_core._pydantic_core.ValidationError: 1 validation error for GetFileResponseSchema&#10;где она и что вызывает эту ошибку">
           <value>
             <GhostTextMetaData>

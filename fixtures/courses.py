@@ -18,10 +18,10 @@ def course_client(function_user: UserFixture) -> CoursesClient:
 
 @pytest.fixture
 def function_course(
-        course_client: CoursesClient, function_user: UserFixture, function_files: FileFixture
+        course_client: CoursesClient, function_user: UserFixture, function_file: FileFixture
 ) -> CourseFixture:
     request = CreateCourseRequestSchema(
-        preview_file_id=function_files.response.file.id,
+        preview_file_id=function_file.response.file.id,
         created_by_user_id=function_user.response.user.id
     )
     response = course_client.create_course(request)
