@@ -41,7 +41,7 @@ class GetExercisesResponseSchema(BaseModel):
     exercises: list[ExerciseSchema]
 
 
-class CreatExerciseRequestSchema(BaseModel):
+class CreateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на получение задания
     """

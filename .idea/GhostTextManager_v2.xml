@@ -3,6 +3,54 @@
   <component name="GhostTextManager">
     <option name="inputs">
       <map>
+        <entry key="def test_get_exercises(&#10;            self,&#10;            exercises_client: ExercisesClient,&#10;            function_exercise: ExercisesFixture,&#10;            function_course: CourseFixture&#10;    ):&#10;        query = GetExercisesQuerySchema(course_id=function_course.response.course.id)&#10;        response = exercises_client.get_exercises_api(query)&#10;        response_data = GetExercisesResponseSchema.model_validate_json(response.text)&#10;&#10;        assert_status_code(response.status_code, HTTPStatus.OK)&#10;        assert_get_exercises_response(response_data, [function_exercise.response])&#10;&#10;        validate_json_schema(response.json(), response_data.model_json_schema())&#10;def assert_get_exercises_response(&#10;        get_exercises_response: GetExercisesResponseSchema,&#10;        create_exercise_responses: list[CreateExerciseResponseSchema]&#10;):&#10;    &quot;&quot;&quot;&#10;    Проверяет, что ответ на получения списка заданий соответствует ответам на их создание.&#10;    :param get_exercises_response:&#10;    :param create_exercise_responses:&#10;    :return:&#10;    &quot;&quot;&quot;&#10;    assert_length(get_exercises_response.exercises, create_exercise_responses, &quot;exercises&quot;)&#10;&#10;    for index, create_exercise_response in enumerate(create_exercise_responses):&#10;        assert_exercise(get_exercises_response.exercises[index], create_exercise_response.exercise)&#10;распиши пожалуйста пунктами понятный порядок действий">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764704673119" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="а обьясни почему при проверки нужно указываить у ошибки details=&quot;Exercise not found&quot;">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764644013839" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="где в последнем тест ошибки">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764643774036" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="где-то возникает ошибка">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764635769623" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="где-то возникает ошибка валидации..">
           <value>
             <GhostTextMetaData>
