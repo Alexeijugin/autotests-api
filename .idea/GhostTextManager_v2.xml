@@ -27,6 +27,30 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="все равно">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764863656001" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="все теперь, отображается">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764863870142" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="где в последнем тест ошибки">
           <value>
             <GhostTextMetaData>
@@ -70,6 +94,30 @@
               <option name="timestamps">
                 <list>
                   <option value="1764452012277" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="почему у меня такой отчет?">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764863488784" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="при каждом тесте отчет будет перезаписывать?">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1764863921270" />
                 </list>
               </option>
             </GhostTextMetaData>
