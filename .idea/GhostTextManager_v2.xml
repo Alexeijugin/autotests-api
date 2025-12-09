@@ -15,6 +15,42 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="from config import settings&#10;&#10;&#10;def create_allure_environment_file():&#10;    # Создаем список из элементов в формате {key}={value}&#10;    items = [f'{key}={value}' for key, value in settings.model_dump().items()]&#10;    # Собираем все элементы в единую строку с переносами&#10;    properties = '\n'.join(items)&#10;&#10;    # Открываем файл ./allure-results/environment.properties на чтение&#10;    with open(settings.allure_results_dir.joinpath('environment.properties'), 'w+') as file:&#10;        file.write(properties)  # Записываем переменные в файл&#10;вот тут т.е. срабатывает?">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765249688005" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="from typing import Self&#10;&#10;from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath&#10;from pydantic_settings import BaseSettings, SettingsConfigDict&#10;&#10;&#10;class HTTPClientConfig(BaseModel):&#10;    url: HttpUrl&#10;    timeout: float&#10;&#10;    @&lt;file_name&gt;&#10;    def client_url(self) -&gt; str:&#10;        return str(self.url)&#10;&#10;&#10;class TestDataConfig(BaseModel):&#10;    image_png_file: FilePath&#10;&#10;&#10;class Settings(BaseSettings):&#10;    model_config = SettingsConfigDict(&#10;        env_file=&quot;.env&quot;,  # Указываем, из какого файла читать настройки&#10;        env_file_encoding=&quot;utf-8&quot;,  # Указываем кодировку файла&#10;        env_nested_delimiter=&quot;.&quot;,  # Указываем разделитель для вложенных переменных&#10;    )&#10;&#10;    test_data: TestDataConfig&#10;    http_client: HTTPClientConfig&#10;    allure_results_dir: DirectoryPath  # Добавили новое поле&#10;&#10;&#10;    # Добавили метод initialize&#10;    @&lt;file_name&gt;&#10;    def initialize(cls) -&gt; Self:  # Возвращает экземпляр класса Settings&#10;        allure_results_dir = DirectoryPath(&quot;./allure-results&quot;)  # Создаем объект пути к папке&#10;        allure_results_dir.mkdir(exist_ok=True)  # Создаем папку allure-results, если она не существует&#10;&#10;        # Передаем allure_results_dir в инициализацию настроек&#10;        return Settings(allure_results_dir=allure_results_dir)&#10;&#10;&#10;# Теперь вызываем метод initialize&#10;settings = Settings.initialize()&#10;каким образом этот код используется?">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765249533905" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="а нет, все порядке создается папка">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765253346426" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="а обьясни почему при проверки нужно указываить у ошибки details=&quot;Exercise not found&quot;">
           <value>
             <GhostTextMetaData>
@@ -22,6 +58,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1764644013839" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="а подскажи в какой момент создаться папка allure-results">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765249426814" />
                 </list>
               </option>
             </GhostTextMetaData>
@@ -63,6 +111,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="где ошибка">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765243887867" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="где-то возникает ошибка">
           <value>
             <GhostTextMetaData>
@@ -99,6 +159,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="ну я и имел ввиду вот в этом файле from config import settings">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765249836171" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="почему у меня такой отчет?">
           <value>
             <GhostTextMetaData>
@@ -111,6 +183,30 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="при запуске скрипта создается пустая папка, апри запуске тестов почему-то не создается пустая папка..">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765253038694" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="при запуске этого скрипта создается папка">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765252816738" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="при каждом тесте отчет будет перезаписывать?">
           <value>
             <GhostTextMetaData>
@@ -118,6 +214,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1764863921270" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="я выполнил прогон python -m pytest -m &quot;regression&quot; --alluredir=./allure-results -n=3">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1765244082936" />
                 </list>
               </option>
             </GhostTextMetaData>
