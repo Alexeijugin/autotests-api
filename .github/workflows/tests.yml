@@ -31,7 +31,7 @@ jobs:
         run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
 
       # 4. Шаг для установки зависимостей для тестового сервера
-      - name: Install test server dependencies
+      - name: Install test server  dependencies
         run: pip install -r qa-automation-engineer-api-course/requirements.txt
 
       # 5. Шаг для запуска тестового сервера с необходимыми переменными окружения
