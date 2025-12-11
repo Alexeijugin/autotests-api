@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/585c99f4-dbca-4a61-b97e-1da137a15046' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA4LjA1MTQyMSIsInVzZXJfaWQiOiI4MWUyYzQ3My0zMDk4LTRiMGItYmUzZC04MDU4ODA5N2VlOTAifQ.l4g2qCQXUR--JeZJbt7fkK6A5HOnZo6jLIRkrMA7nJ0' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seven trouble whose character.","maxScore":78,"minScore":16,"orderIndex":99,"description":"Wind not society minute a program. Anyone name marriage. Suggest investment make smile anything blue bad.\nGive modern medical own sometimes. Add end government.","estimatedTime":"3 weeks"}'

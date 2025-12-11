@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA4LjA1MTQyMSIsInVzZXJfaWQiOiI4MWUyYzQ3My0zMDk4LTRiMGItYmUzZC04MDU4ODA5N2VlOTAifQ.l4g2qCQXUR--JeZJbt7fkK6A5HOnZo6jLIRkrMA7nJ0' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Present minute amount look light set.","maxScore":87,"minScore":6,"description":"Else and step catch board.\nPractice west understand idea try save. Mrs south physical this which street.","estimatedTime":"8 weeks","previewFileId":"8a83561d-6005-41ea-b8e9-ac23849e78ab","createdByUserId":"81e2c473-3098-4b0b-be3d-80588097ee90"}'

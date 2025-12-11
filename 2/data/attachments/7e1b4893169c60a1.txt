@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA4LjA1MTQyMSIsInVzZXJfaWQiOiI4MWUyYzQ3My0zMDk4LTRiMGItYmUzZC04MDU4ODA5N2VlOTAifQ.l4g2qCQXUR--JeZJbt7fkK6A5HOnZo6jLIRkrMA7nJ0' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney very live son economy red general.","courseId":"be5f21ef-6ea5-4493-8fb5-490105346558","maxScore":53,"minScore":28,"orderIndex":12,"description":"Key guy for travel girl weight everyone. East piece claim through recent Mrs involve whole.","estimatedTime":"10 weeks"}'

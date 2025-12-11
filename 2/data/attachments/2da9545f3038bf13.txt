@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA2LjU4ODY5OCIsInVzZXJfaWQiOiJkYTlmYTYwZC1jZTk3LTRlNWEtOWNlMC01YTZhOTAxN2IzZjkifQ.CBD0F7_E-6MMV8l2FKgYpXw9u2AJJqs19o93H8wqO1c' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Degree ready school century operation increase.","maxScore":84,"minScore":9,"description":"Many close artist Republican. Cell loss large plan particularly subject attorney. Two imagine offer cold believe.\nWorker prepare much officer.","estimatedTime":"7 weeks","previewFileId":"ae606d88-3e3e-44cc-b0a1-81b5e8dc429d","createdByUserId":"da9fa60d-ce97-4e5a-9ce0-5a6a9017b3f9"}'

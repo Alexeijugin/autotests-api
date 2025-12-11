@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA2Ljg2MjMwOSIsInVzZXJfaWQiOiI1NDc4YzE3ZS01ODE3LTQ2MzQtYTczMi0xYTMwZThiYTgwODkifQ.VkEle5OY-lFP-Is-I3wliwEIPITtCrC23uQOcx3nXms' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Organization give successful tonight fish road.","maxScore":99,"minScore":8,"description":"Maintain wait ready challenge. Successful research PM reason here prove again.\nFloor truth strong generation. Could stay quality.","estimatedTime":"3 weeks","previewFileId":"5ba23177-fbdb-4aaa-9524-795fc6abdf9f","createdByUserId":"5478c17e-5817-4634-a732-1a30e8ba8089"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1466e425-19da-4dc6-87bd-beb8980cb774' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA2LjU4ODY5OCIsInVzZXJfaWQiOiJkYTlmYTYwZC1jZTk3LTRlNWEtOWNlMC01YTZhOTAxN2IzZjkifQ.CBD0F7_E-6MMV8l2FKgYpXw9u2AJJqs19o93H8wqO1c' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example hundred example laugh sense.","maxScore":71,"minScore":8,"description":"Maintain cause style mind impact body car this. Head heavy situation teacher. New yes including difference.\nMovement carry three spend. War when record.","estimatedTime":"6 weeks"}'

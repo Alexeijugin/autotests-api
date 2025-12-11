@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA3Ljc3NzYxNiIsInVzZXJfaWQiOiI0YTAzNTlmNi1hYzg5LTQzZWMtODQyYi05ZGRmZDdhYWY0MDcifQ.B7tns3tY37R0hvBKNOZ4HRPEcnTbfeY1c_1UrB7KEgI' \
+  -H 'content-length: 459' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental despite pass career third parent person successful.","maxScore":72,"minScore":8,"description":"Now likely final yes again gas ability produce. Fear like bank yard early pass way. Other former lawyer entire detail do plant.\nChance laugh table off provide fall. Hot ago easy PM author if develop.","estimatedTime":"8 weeks","previewFileId":"93203359-78c5-4e3e-856b-3078fac5de1d","createdByUserId":"4a0359f6-ac89-43ec-842b-9ddfd7aaf407"}'

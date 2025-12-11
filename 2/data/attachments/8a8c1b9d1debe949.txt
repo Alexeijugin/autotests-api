@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA5LjIzMjM2MyIsInVzZXJfaWQiOiIxN2ExMmEwYi03NTYyLTQ4Y2ItOTNiMy1lMzZjODQ2OGQwOGUifQ.soEGhUU-bk80Ha_z8_rF4Sngmys5R9sC5OOvMD-_s94' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Option put talk six.","courseId":"b541e065-d335-4044-bf60-a3f7e8bfb609","maxScore":94,"minScore":14,"orderIndex":77,"description":"Ever lot here action.\nWant summer hair happy. Especially see charge ability you ever.\nWhether box way cut meeting.","estimatedTime":"5 weeks"}'

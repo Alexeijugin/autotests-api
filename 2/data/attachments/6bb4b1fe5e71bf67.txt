@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA5LjIzMjM2MyIsInVzZXJfaWQiOiIxN2ExMmEwYi03NTYyLTQ4Y2ItOTNiMy1lMzZjODQ2OGQwOGUifQ.soEGhUU-bk80Ha_z8_rF4Sngmys5R9sC5OOvMD-_s94' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third state view sell partner.","maxScore":82,"minScore":5,"description":"Idea defense director line position. Just treatment sometimes value. Other force could situation street pull management.\nBuild oil story outside. Democratic rise set people happy.","estimatedTime":"4 weeks","previewFileId":"5865fcc4-df05-4b31-81a0-82d16a39b9ed","createdByUserId":"17a12a0b-7562-48cb-93b3-e36c8468d08e"}'

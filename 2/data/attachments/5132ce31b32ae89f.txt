@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjA4Ljk1ODcwMiIsInVzZXJfaWQiOiIwYjJmYzE0ZS1iZGIyLTQyOWMtOWY5ZC01ZWY4MDA3OTJmZWIifQ.PkQJaZ90PgHbCtRhTsZQLaP75m1vn6-LbNkBwx0GBh0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President air benefit thing mission continue buy.","maxScore":78,"minScore":7,"description":"Clear race huge common former until really. Employee operation page case these.\nSport star yourself game thing. Moment indicate than.","estimatedTime":"6 weeks","previewFileId":"9801641f-694d-493b-8ea3-de4c220117f3","createdByUserId":"0b2fc14e-bdb2-429c-9f9d-5ef800792feb"}'

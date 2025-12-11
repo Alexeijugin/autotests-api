@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDE3OjM1OjEwLjE1NzQ4NiIsInVzZXJfaWQiOiJhMDc2MDNjZi02ZjBjLTQ1ZDYtYjY0NS01MGRhNzk3ODQ5NTMifQ.QIwhP6JZqiB6Y0cwkN3d1cl0nWJZo7JPtaZ0nYuqwpc' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide forward environment somebody.","maxScore":54,"minScore":21,"description":"Public coach continue later station leg. But measure lead. Light attorney bank relationship as cover cover.\nPerform whether along sort concern. American evidence simple order in program store.","estimatedTime":"10 weeks","previewFileId":"7a574a78-50c1-4541-8338-e597c963fe24","createdByUserId":"a07603cf-6f0c-45d6-b645-50da79784953"}'
