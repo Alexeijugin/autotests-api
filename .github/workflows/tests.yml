@@ -31,7 +31,7 @@ jobs:
         run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
 
       # 4. Шаг для установки зависимостей для тестового сервера
-      - name: Install test server  dependencies
+      - name: Install test server dependencies
         run: pip install -r qa-automation-engineer-api-course/requirements.txt
 
       # 5. Шаг для запуска тестового сервера с необходимыми переменными окружения
@@ -57,7 +57,7 @@ jobs:
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
-      - name: Get Allure history
+      - name: Get Allure  history
         uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
