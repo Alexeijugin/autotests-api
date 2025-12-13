@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjE4LjkyMDUyMyIsInVzZXJfaWQiOiIyNmJkYjBhMy01ZjBlLTQ1NDUtYTdjMy1hNWJjYmM0NDMxZTUifQ.97HypC_WMgznOAAAmGNAVOn79JWaC50Dvoh0UK5tOes' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score tax research those nice.","maxScore":98,"minScore":6,"description":"Car bed administration majority smile away sea. Born lose tell lawyer role. On someone go sister certainly nor.","estimatedTime":"6 weeks","previewFileId":"e8b5d03a-cb0e-40da-bae4-47935564ef0b","createdByUserId":"26bdb0a3-5f0e-4545-a7c3-a5bcbc4431e5"}'

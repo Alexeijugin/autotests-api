@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d5afc21e-98e1-4017-9efb-26809dc2bd0b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjE2LjU0MjU4OSIsInVzZXJfaWQiOiJmNDcwZWE3ZC01ZjRiLTRmNjEtYWJlNy0yZjUzZWRiZDk4ODgifQ.FzofeAYdXY1yMkqbkcOnNau9H0BugoSIRuD3g9uoiaI' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone pay company maybe run training likely.","maxScore":96,"minScore":8,"description":"Consumer develop point stock air pass next.\nRate suffer child make. May building physical line. Trade order goal which still.\nAble writer stay account including help threat. Board site current.","estimatedTime":"2 weeks"}'

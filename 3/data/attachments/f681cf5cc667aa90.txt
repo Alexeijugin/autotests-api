@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjE4LjAxMTQ4MyIsInVzZXJfaWQiOiI5ZDM0MWZjYi1hYWJkLTRiMWYtYWI3Yy0wNTVjNWVjMWQ0ZWMifQ.lhj-5Rt8TGCEIJ8oez9ITGIrOFuxNlem9QeZJ99YRPU' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Computer sea hear card though far.","maxScore":90,"minScore":3,"description":"Politics myself may want might store. Poor stock value whom include. Yard would coach road.\nSouthern education market town the task.","estimatedTime":"7 weeks","previewFileId":"4f7c5f2f-d5bd-4a10-96e5-f77cf77f0567","createdByUserId":"9d341fcb-aabd-4b1f-ab7c-055c5ec1d4ec"}'

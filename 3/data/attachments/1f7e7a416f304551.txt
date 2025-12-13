@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjIwLjExMjc2OSIsInVzZXJfaWQiOiJkMDhjZmVhNi1lNjFkLTQ4NmYtYjZjMC1iNjZiY2E2ODNmNTEifQ.IJwhKE-ODg-DscW12BbRyQ7mMVFUCIH3jVjv80SnNAQ' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish week new lay.","maxScore":54,"minScore":23,"description":"No develop itself himself according career.\nFeel language together wear feeling form themselves field. Up admit understand. Item career officer offer. Just door place door spend product.","estimatedTime":"7 weeks","previewFileId":"fb31821d-c850-4d0f-a76b-6718ab2d9064","createdByUserId":"d08cfea6-e61d-486f-b6c0-b66bca683f51"}'

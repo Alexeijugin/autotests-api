@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjE4LjkyMDUyMyIsInVzZXJfaWQiOiIyNmJkYjBhMy01ZjBlLTQ1NDUtYTdjMy1hNWJjYmM0NDMxZTUifQ.97HypC_WMgznOAAAmGNAVOn79JWaC50Dvoh0UK5tOes' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rock type best organization indeed energy interesting food.","courseId":"b919878f-ce90-464f-9e2d-b2f99eff0bd7","maxScore":73,"minScore":28,"orderIndex":28,"description":"Size dinner have cut. Experience place wear manage.\nFind room yet off relationship knowledge.\nBlood entire budget include. Energy simply story garden relate assume.","estimatedTime":"4 weeks"}'

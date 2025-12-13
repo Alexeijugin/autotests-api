@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/b0a9a223-c751-435b-9778-d8b88f074888
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/b0a9a223-c751-435b-9778-d8b88f074888
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:62 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to b0a9a223-c751-435b-9778-d8b88f074888
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Rock type best organization indeed energy interesting food.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to b919878f-ce90-464f-9e2d-b2f99eff0bd7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 28
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Size dinner have cut. Experience place wear manage.
+Find room yet off relationship knowledge.
+Blood entire budget include. Energy simply story garden relate assume.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

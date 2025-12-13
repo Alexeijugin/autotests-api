@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjE1LjM5OTkyOCIsInVzZXJfaWQiOiJjODMyZmQ2Zi05MTZhLTQ4MDctODBmMC1iNzUyOTczODM1M2EifQ.5pFM47pS2qNvBIPZIEqCfWnDdJqX3sPEIo_c7vRz_Yo' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious join view recent most certainly identify.","maxScore":64,"minScore":5,"description":"Past task personal institution center exactly. Any continue other hard. Market good into research similar maintain against and.","estimatedTime":"4 weeks","previewFileId":"ab691882-fef8-4180-acf5-1780e7cbb3b0","createdByUserId":"c832fd6f-916a-4807-80f0-b7529738353a"}'
