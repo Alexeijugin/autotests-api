@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjMyLjkzNTk1MiIsInVzZXJfaWQiOiJjZGViOTAxNi03NDg4LTQxNDUtYTkyNi0zMTU4NjA5ZTgxYjIifQ.Za8QFe3V_J66EuDZckZOv33HbA6PspUJIunFKjvBAOE' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect live close surface man shoulder could.","maxScore":53,"minScore":16,"description":"System space guess education fact group almost. Order culture clearly cut.\nDecide table through majority because store. Beyond various wrong go institution everybody evidence.","estimatedTime":"5 weeks","previewFileId":"5d6feae4-f50a-4d20-9cf4-49de2a521503","createdByUserId":"cdeb9016-7488-4145-a926-3158609e81b2"}'

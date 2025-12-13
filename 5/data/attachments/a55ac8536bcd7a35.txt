@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjM1LjM1MTIyNSIsInVzZXJfaWQiOiIwOTA1ZjMzYy04OGM3LTQ0MDYtYWFjZC1lYjg5OGFlNTNiMGEifQ.8jkzBwMlqfv4jgFjZqH-DLvzEOYDAMEWKuolrPCIrnQ' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact war color establish common value sister.","maxScore":71,"minScore":17,"description":"Together leave protect night production million establish. Race last too and able.\nBox morning mouth affect administration meeting. Brother level some decide debate any necessary face.","estimatedTime":"10 weeks","previewFileId":"747b61b9-733c-4f89-8900-96f538161908","createdByUserId":"0905f33c-88c7-4406-aacd-eb898ae53b0a"}'

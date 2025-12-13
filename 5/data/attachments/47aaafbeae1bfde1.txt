@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6e28f606-8846-4d07-bde0-e41155b50fb8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjMzLjUyOTcwNCIsInVzZXJfaWQiOiI2ZDA2MTQ2MC00OWVlLTQxY2YtOTdhNy00Yjg3NDU5ZWViMGQifQ.qxbdHjhaRsMwipb7gIAth68NtPlrsNLchIXQZ1iyB84' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Response rule religious senior job contain present.","maxScore":77,"minScore":12,"description":"Next case authority foreign kind. Send performance dinner morning able work. Idea understand response others whom drop member church.","estimatedTime":"10 weeks"}'

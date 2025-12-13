@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:83 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Quickly picture cell adult allow smile nature.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Detail word true sell animal develop. During enter everyone school control we director. Whom according several apply.
+Month down knowledge add. Like where left over seek push language.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 0bd9c6de-520c-4b0f-ac44-5860a4ab2359
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 1f180560-eebb-4720-9a6a-f8f4842364c2
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

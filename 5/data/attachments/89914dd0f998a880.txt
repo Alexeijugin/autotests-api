@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjM0Ljc2NjgwNyIsInVzZXJfaWQiOiJmM2E2ZmQ4Ni1mZmJjLTRmYTktOTk0Yi03OTVlODBiYzJlYzYifQ.kwuuNTPExW7nwQ_FMRhhmHszmBPjv5SPm3qhEd-GQmg' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement our safe perhaps.","maxScore":87,"minScore":25,"description":"Military wish couple bar piece several look. Whom statement notice do son Democrat. Explain pass service attention very of.\nNote community since white top national. Behind always yard street.","estimatedTime":"6 weeks","previewFileId":"da92389c-16b3-40ec-b9de-9c2b47f73fc0","createdByUserId":"f3a6fd86-ffbc-4fa9-994b-795e80bc2ec6"}'

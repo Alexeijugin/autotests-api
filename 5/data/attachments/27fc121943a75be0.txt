@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/031d0e5e-df78-446e-ab8e-79b000344922' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjM1LjM1MTIyNSIsInVzZXJfaWQiOiIwOTA1ZjMzYy04OGM3LTQ0MDYtYWFjZC1lYjg5OGFlNTNiMGEifQ.8jkzBwMlqfv4jgFjZqH-DLvzEOYDAMEWKuolrPCIrnQ' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Resource kid series when point measure again kid.","maxScore":76,"minScore":4,"orderIndex":64,"description":"Price half organization our whether. Position matter research amount weight financial. Hit language particular girl enter way window site.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises?courseId=0dbd37eb-821c-4c6c-a1cd-433049117bde
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=0dbd37eb-821c-4c6c-a1cd-433049117bde
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:106 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 7de5f495-a496-4b8d-8e0e-37e7b0154d56
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to My project direction center smile sign process.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 0dbd37eb-821c-4c6c-a1cd-433049117bde
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 37
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Compare see he save should manager course. Design fast we any add unit out. Point real share.
+Lead late detail interest game structure.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjMzLjUyOTcwNCIsInVzZXJfaWQiOiI2ZDA2MTQ2MC00OWVlLTQxY2YtOTdhNy00Yjg3NDU5ZWViMGQifQ.qxbdHjhaRsMwipb7gIAth68NtPlrsNLchIXQZ1iyB84' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening debate upon support.","maxScore":90,"minScore":20,"description":"Guy those billion drive company. Cell in her likely.\nFollow fine practice fine heart school foreign. Image truth moment during. Piece minute defense product trip career hundred.","estimatedTime":"5 weeks","previewFileId":"25486016-6b4e-415b-b039-4f15460682c0","createdByUserId":"6d061460-49ee-41cf-97a7-4b87459eeb0d"}'

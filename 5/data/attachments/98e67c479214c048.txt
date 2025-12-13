@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjM2LjU2NjY1NyIsInVzZXJfaWQiOiJlMzdkN2JmZS1mODk0LTRiZGItYWUxNS1jMjA0Zjc5ZDUyMDMifQ.cA5FHpdMXw2rzObo5BZrPtYtnhPvUkhL4vfHNTgFMZs' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happy somebody girl animal.","maxScore":72,"minScore":17,"description":"Somebody ten each once even. Common forward statement edge popular.\nDetermine century property product. Policy similar better collection great agree.\nAgain in partner keep purpose scene baby.","estimatedTime":"1 weeks","previewFileId":"b0e41ffb-aa83-41b4-9e12-862f59f80a48","createdByUserId":"e37d7bfe-f894-4bdb-ae15-c204f79d5203"}'

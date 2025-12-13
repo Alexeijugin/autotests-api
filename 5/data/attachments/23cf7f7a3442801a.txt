@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjM0OjM0LjExNTM2OSIsInVzZXJfaWQiOiIxZjE4MDU2MC1lZWJiLTQ3MjAtOWE2YS1mOGY0ODQyMzY0YzIifQ.F4AIkPiA0Feceqy_Ijd-OIm4ID0PfqcrGrsfS92pl8Q' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly picture cell adult allow smile nature.","maxScore":72,"minScore":3,"description":"Detail word true sell animal develop. During enter everyone school control we director. Whom according several apply.\nMonth down knowledge add. Like where left over seek push language.","estimatedTime":"8 weeks","previewFileId":"0bd9c6de-520c-4b0f-ac44-5860a4ab2359","createdByUserId":"1f180560-eebb-4720-9a6a-f8f4842364c2"}'
