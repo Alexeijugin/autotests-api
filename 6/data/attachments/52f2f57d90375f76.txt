@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAzLjMyMDQ0NSIsInVzZXJfaWQiOiIxMDI4ZDc3MC0zMzQzLTRhZjYtOWIxMi04ZjYxMzJiY2Q1ZGQifQ.Y-ymGvsXwXo7WWJaVjAVOo_SbpvqhDe3zxplYLiHUoE' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate per inside despite environment poor upon.","maxScore":58,"minScore":18,"description":"Program far trial development prepare worry. Short although run these.\nMore can recently outside. Anything water front two respond especially. Life most we newspaper old tonight necessary.","estimatedTime":"4 weeks","previewFileId":"da4a297c-346b-4b3e-aea0-7bebc62e2ca1","createdByUserId":"1028d770-3343-4af6-9b12-8f6132bcd5dd"}'

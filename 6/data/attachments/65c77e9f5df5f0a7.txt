@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAwLjk4NDczNSIsInVzZXJfaWQiOiJlNTRkNWFhZS0zMmQ4LTQ2Y2YtOWZiNi04ZGUyNjEzYjUwODQifQ.y3Zn40wTb3HqBZnsspNG8Jt6krWIl6RNFzdQugkciG0' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality soldier end newspaper actually.","maxScore":82,"minScore":12,"description":"None throw talk five focus attorney. Husband raise reach trip want rate provide fact.\nAny trouble school. Place stage help live rock. Four its simply technology.","estimatedTime":"2 weeks","previewFileId":"819e2e0c-238a-4aae-9ab4-57c168dd16cf","createdByUserId":"e54d5aae-32d8-46cf-9fb6-8de2613b5084"}'

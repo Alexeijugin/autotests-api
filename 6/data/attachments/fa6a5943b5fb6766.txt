@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAzLjA0Nzc0NCIsInVzZXJfaWQiOiIyYmJjOTdhMi0yMmU0LTRiOWQtYjBkYS05NmMzOTkyODQyNDYifQ.2Q0FB-hpCvk0ryuU-OnUi5p1F3_bbE1vwRiByhHa1tI' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish grow during operation job federal simple argue.","courseId":"e58ee8ab-a854-4021-bca0-ab46288d579b","maxScore":88,"minScore":14,"orderIndex":61,"description":"Treat nice theory pressure must to enter. Pass page affect many least party.\nMillion let sister else company three help recognize. Like standard tax on. Face point Mrs better.","estimatedTime":"10 weeks"}'

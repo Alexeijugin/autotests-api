@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/67f66e48-315a-4e73-9651-defd5f274360' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAyLjEzOTA3MiIsInVzZXJfaWQiOiIwNDY1MGQ4NC04ODRmLTQ2YjQtOWVhMy03YzI3M2IzZTQ3NDcifQ.b9WLvKJI6sxiYkGOjDOvsvjwxRQGn-aW65Q7f4DOmRM' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark discover reveal include stop recognize.","maxScore":64,"minScore":7,"orderIndex":7,"description":"Less scene responsibility travel reveal. Peace choice government whose. Stuff factor particularly three.\nRoad finish same. Home age option fact director help eight.","estimatedTime":"7 weeks"}'

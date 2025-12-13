@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAxLjg2Njg1NyIsInVzZXJfaWQiOiIyNDdlOGUyYy01NTkwLTQwMTUtOTcxNS0zNGIyZjkxZjg5NWQifQ.F-49y_YiK7UVEwH1pEWUa3Kl_JJyw5N-8UsBY7F2th4' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effort because shake fill model.","maxScore":54,"minScore":19,"description":"Nice possible together address. People factor including main adult identify back. Happy possible whom course focus offer development policy.","estimatedTime":"4 weeks","previewFileId":"7aac2715-cdcf-4af1-b526-737761b51ce8","createdByUserId":"247e8e2c-5590-4015-9715-34b2f91f895d"}'

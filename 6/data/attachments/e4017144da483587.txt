@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAzLjA0Nzc0NCIsInVzZXJfaWQiOiIyYmJjOTdhMi0yMmU0LTRiOWQtYjBkYS05NmMzOTkyODQyNDYifQ.2Q0FB-hpCvk0ryuU-OnUi5p1F3_bbE1vwRiByhHa1tI' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late entire who art fish media.","maxScore":97,"minScore":23,"description":"Turn perhaps natural occur. Service over nor doctor arrive third time. Customer pressure pattern want exist senior.","estimatedTime":"6 weeks","previewFileId":"3769636e-2e91-49e0-82e5-f417b9106b7c","createdByUserId":"2bbc97a2-22e4-4b9d-b0da-96c399284246"}'

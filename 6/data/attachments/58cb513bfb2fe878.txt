@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAwLjQwMTE4MSIsInVzZXJfaWQiOiIyNGI1M2VmYS1mNThiLTRkNDQtOTdhNy01MGQxMDk4NTdmYWUifQ.LL7jJh6kF-Nw0FsbNZIUukJHcTDFd-UFOWG_ZUm5lUA' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economic edge direction from single car.","maxScore":89,"minScore":7,"description":"Deal sing bad other. Interest this close maintain.\nLine entire stay tax day. Whom gun allow school.","estimatedTime":"9 weeks","previewFileId":"cfe9fb77-4167-4ecc-a116-dc98519d5d63","createdByUserId":"24b53efa-f58b-4d44-97a7-50d109857fae"}'

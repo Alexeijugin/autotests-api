@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjA0LjIzOTg2MSIsInVzZXJfaWQiOiI4YzMwNjNkYy1lY2M2LTQ0OGUtOTZmNy1hYWI2MDU3YWNhOGYifQ.FduXG8tXfI05a4cTD_OVmZjCqvTYcH4UNEcc7RJwQQ0' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Science loss color information.","maxScore":86,"minScore":13,"description":"Assume grow project close receive month. Service scene sometimes great girl very free have.","estimatedTime":"2 weeks","previewFileId":"a0d63db2-1c4e-40b2-b9da-3199542efac2","createdByUserId":"8c3063dc-ecc6-448e-96f7-aab6057aca8f"}'

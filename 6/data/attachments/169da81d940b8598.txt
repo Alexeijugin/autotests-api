@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b3ed7c91-4964-4bc0-b932-5763eba0a179' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDA1OjUzOjAwLjQwMTE4MSIsInVzZXJfaWQiOiIyNGI1M2VmYS1mNThiLTRkNDQtOTdhNy01MGQxMDk4NTdmYWUifQ.LL7jJh6kF-Nw0FsbNZIUukJHcTDFd-UFOWG_ZUm5lUA' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk one matter election.","maxScore":100,"minScore":17,"description":"Hand environment bag fear site key hear.\nTo another consider her shoulder room bill. Say avoid theory huge big class government. Reach western focus follow way.","estimatedTime":"5 weeks"}'
