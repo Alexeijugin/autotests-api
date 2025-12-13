@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjM1Ljg5MTE3NyIsInVzZXJfaWQiOiIzZjU5ZWU5Zi0yMTQ3LTQ1YTQtOWYxNS1hMDFmZTU4OGNhMjQifQ.Gq2UQ4rvu3VRsFJx6_j6VGydcS2rA-skehHf1wFCaCU' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"National our probably great.","maxScore":70,"minScore":21,"description":"Field worker even head class knowledge. Wife serious several professor body realize history.\nHead low newspaper house eight.","estimatedTime":"10 weeks","previewFileId":"5f33d1de-0a9a-473a-a801-7e39cca9de51","createdByUserId":"3f59ee9f-2147-45a4-9f15-a01fe588ca24"}'

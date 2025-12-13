@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjMzLjgzNDQ5NSIsInVzZXJfaWQiOiIyYzBkYjY3Yy1jMzI5LTRjZDQtYjc5My01MTVhNTEzYzIwNTEifQ.ECaAAHz7AYXxaWlDLiEaaouCO4Fdgvh-LtlpcTs8RKg' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Best front thought director director dream hair different.","maxScore":80,"minScore":12,"description":"Green adult laugh. Thus guess without far. Education laugh away treat seat man.\nBack democratic kid enough class. Body method then TV change. Mouth tell data.","estimatedTime":"5 weeks","previewFileId":"8466276c-7297-4b01-9145-f42190d5d74f","createdByUserId":"2c0db67c-c329-4cd4-b793-515a513c2051"}'

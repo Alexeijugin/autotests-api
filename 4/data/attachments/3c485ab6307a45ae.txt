@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjM0LjcxMTI2MCIsInVzZXJfaWQiOiJiZGJiNjg5Yy0xZDQ1LTQ2YjktYTVhMy03MGUxMWZhMzUwZWEifQ.Vq16aQMWZfcYXC6KAZNttzUPLEqwVZNee6345uCwlww' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate church move turn fact summer.","maxScore":55,"minScore":4,"description":"Community Democrat green great whom. On least difficult station. Black move family could accept.","estimatedTime":"3 weeks","previewFileId":"b653eb12-b6cf-4dd2-ab73-11b19d2ad387","createdByUserId":"bdbb689c-1d45-46b9-a5a3-70e11fa350ea"}'

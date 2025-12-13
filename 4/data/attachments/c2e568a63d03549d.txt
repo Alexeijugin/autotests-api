@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjMzLjI1MzAwMyIsInVzZXJfaWQiOiI3MmI1MDk3YS0xNDg1LTQ2YzQtOGQ5Ni05YzMxYWFiYTE5MWUifQ.bXCkhlQ_YYvnQbv8Dk0d511kjXBlXClxEkTZi20K6N8' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your senior peace body.","maxScore":50,"minScore":22,"description":"Want debate break cold tell. Social major side politics. Member leg compare top whom assume.","estimatedTime":"2 weeks","previewFileId":"d6372ab7-0bfd-4a05-9ea6-4c0bb9e16eb1","createdByUserId":"72b5097a-1485-46c4-8d96-9c31aaba191e"}'

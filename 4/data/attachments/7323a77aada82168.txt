@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to New the adult analysis talk office author.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 0c683c33-3d6a-4c45-81e1-8c1aeb8156e3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 74
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Address thing into. Maintain two staff again own recent speech. Choice customer special win surface true loss.
+World trouble go couple although technology.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

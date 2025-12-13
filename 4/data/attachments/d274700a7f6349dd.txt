@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjM2LjE2NTI5MCIsInVzZXJfaWQiOiIwMTA1OGRkYi00NGQzLTQ5ZDUtYmI1Zi02NjFhNTUyZGQ2ZWQifQ.ph6Yu5txzFMtCJFz32WyZnD2mA3soKH4U-tKV8BCDxY' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Another want over center final recognize evidence.","maxScore":83,"minScore":6,"description":"Born interest beat beyond yes. Together least rule husband. Reduce simply million crime hand successful describe friend.\nLike government service. Watch off major section common indeed goal.","estimatedTime":"6 weeks","previewFileId":"2ccfd192-4311-4978-893d-a9736b85ae1f","createdByUserId":"01058ddb-44d3-49d5-bb5f-661a552dd6ed"}'

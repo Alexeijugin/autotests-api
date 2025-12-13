@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjM3LjA4MzMzOCIsInVzZXJfaWQiOiIyMmRkMzAzOC0yNTQxLTQ5N2QtYWMxZi03NjYwMGMwZjc2NDMifQ.K-k5K5-GgOVT7Wf40jo4Y-u_2DUgCEMBwdsLs2ZcJBc' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break social discover key wife bit treatment last.","maxScore":97,"minScore":24,"description":"Employee source long loss health course. Discussion nothing picture young give call.\nMay wall write us. State less feeling current age. Star must than.","estimatedTime":"4 weeks","previewFileId":"10047ff8-5bbb-42e9-a34b-87234abcc42d","createdByUserId":"22dd3038-2541-497d-ac1f-76600c0f7643"}'

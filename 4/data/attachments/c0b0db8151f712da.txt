@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/32b182d6-7a51-42bd-a722-15ffacc19bcd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjMzLjI1MzAwMyIsInVzZXJfaWQiOiI3MmI1MDk3YS0xNDg1LTQ2YzQtOGQ5Ni05YzMxYWFiYTE5MWUifQ.bXCkhlQ_YYvnQbv8Dk0d511kjXBlXClxEkTZi20K6N8' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume fact body look financial season.","maxScore":100,"minScore":7,"description":"Economy also member alone still. Stop take need save thus seat crime.\nReport student risk study. Interest music happy others expert nature little.\nChange myself ago walk image.","estimatedTime":"9 weeks"}'

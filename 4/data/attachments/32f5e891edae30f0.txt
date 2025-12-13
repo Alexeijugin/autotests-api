@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/08366c07-bac1-46ec-9cc6-f1fd96feff4d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjM0Ljk4NDE4OSIsInVzZXJfaWQiOiIyMTE5YWI4Ni04OWY1LTQwNDMtOWZmZS05MjMzZGU3NmY4YzAifQ.js_MaqnweVjqlrL6M_8mG5HSqZ4XkqVRkAQC0QPP4oA' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above everything fact board former.","maxScore":93,"minScore":17,"orderIndex":55,"description":"Government itself fear tree fight himself never. Whatever give pull production answer.\nNone fly study those however. Certainly light case appear discussion.","estimatedTime":"7 weeks"}'

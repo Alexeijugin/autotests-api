@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTEzVDAxOjMwOjM3LjA4MzMzOCIsInVzZXJfaWQiOiIyMmRkMzAzOC0yNTQxLTQ5N2QtYWMxZi03NjYwMGMwZjc2NDMifQ.K-k5K5-GgOVT7Wf40jo4Y-u_2DUgCEMBwdsLs2ZcJBc' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect talk commercial parent country low purpose hair.","courseId":"c88031f2-8ca8-4691-9ff3-8e3157bf40d4","maxScore":93,"minScore":10,"orderIndex":97,"description":"Than girl general once specific. Plan girl he particularly beyond nothing again.\nSecond turn common how. Edge blood possible cell spend again.","estimatedTime":"4 weeks"}'
