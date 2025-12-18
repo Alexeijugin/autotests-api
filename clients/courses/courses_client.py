@@ -48,7 +48,7 @@ class CoursesClient(APIClient):
         return self.post(APIRoutes.COURSES, json=request.model_dump(by_alias=True))
 
     @allure.step("Update course by id {course_id}")
-    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
+    @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод обновления курса.
@@ -60,7 +60,7 @@ class CoursesClient(APIClient):
         return self.patch(f"{APIRoutes.COURSES}/{course_id}", json=request.model_dump(by_alias=True))
 
     @allure.step("Delete course by id {course_id}")
-    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
+    @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")
     def delete_course_api(self, course_id: str) -> Response:
         """
         Метод удаления курса.
