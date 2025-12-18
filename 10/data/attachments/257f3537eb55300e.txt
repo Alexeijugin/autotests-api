@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c075d295-1f43-40fd-8201-21ec92b770bf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjAzLjcyNDgwOSIsInVzZXJfaWQiOiIyNjQzMzAwYi02OTcwLTQ4YjAtYWVkNC0xYWI5NmY1OTQ5NGYifQ.enTzjTD6sPmEBFBYq-h-U8ohB2p5dzr4XKIs6SffN3o' \
+  -H 'content-length: 197' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Issue share stand mind much test decide.","maxScore":77,"minScore":15,"description":"Both only total debate election. Voice condition professor art tree hair.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjA2Ljc4NDYwMiIsInVzZXJfaWQiOiJkMDc1ZWZjYy00Nzk4LTQzNWYtOWRmYy04OWE2MzQ3YWZmNjkifQ.bSPTiD13nOZ9g4FPTm67tDUVvN0pkiM9BTfWg3HQzqY' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Firm world really respond just necessary laugh traditional.","maxScore":70,"minScore":29,"description":"Size visit fall deep generation who. Member window religious bank account behavior. Finish believe education very across how likely door.\nChange factor start manager former campaign.","estimatedTime":"2 weeks","previewFileId":"889a85d3-0353-4bfb-bedf-86c57c60aaac","createdByUserId":"d075efcc-4798-435f-9dfc-89a6347aff69"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjA2LjAxMjc1MiIsInVzZXJfaWQiOiJhZmYwNmNlNS01YmFmLTRiZWMtYjllYy00YWZhODUxM2I1OWEifQ.0rXz3jGukHe8IDAaIfqafvLbJ74UJo5ce78amoQN9Q4' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set final sing sign.","maxScore":80,"minScore":5,"description":"Factor look size police.\nPull white rather government away. Suddenly another three plant TV center discover. Born range drop every. Really agent heart hear.","estimatedTime":"8 weeks","previewFileId":"18e5e14d-8a4c-4ba3-be8b-c14d0c873eea","createdByUserId":"aff06ce5-5baf-4bec-b9ec-4afa8513b59a"}'

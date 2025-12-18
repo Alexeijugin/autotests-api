@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjA0Ljg5Mzg3MiIsInVzZXJfaWQiOiI0NDNjNzczOC1iM2YyLTQ1YTQtYWY5ZC1mMjU5MmYxNTY1NzIifQ.06uVHONPjqSl61he9HjrRiG_owKOHgm8a2DkxEexkQs' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake report research direction whose record.","courseId":"8d2c51eb-a3b5-4dcf-9859-e8ca0c2b28f4","maxScore":78,"minScore":24,"orderIndex":95,"description":"Outside learn when agree situation poor. Fight become authority season.\nScientist why citizen financial. Among ever religious ground ball. Kid person season present then.","estimatedTime":"2 weeks"}'

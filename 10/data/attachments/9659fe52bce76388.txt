@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjAzLjcyNDgwOSIsInVzZXJfaWQiOiIyNjQzMzAwYi02OTcwLTQ4YjAtYWVkNC0xYWI5NmY1OTQ5NGYifQ.enTzjTD6sPmEBFBYq-h-U8ohB2p5dzr4XKIs6SffN3o' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific three only discover material.","maxScore":51,"minScore":7,"description":"Around per artist business their various because voice. Should eight family pass civil. Treat meet up relate challenge.\nEvidence dog company long future smile. Human natural officer light.","estimatedTime":"8 weeks","previewFileId":"2b6648a2-b7c0-4244-8ad0-7d19b83c3ad3","createdByUserId":"2643300b-6970-48b0-aed4-1ab96f59494f"}'

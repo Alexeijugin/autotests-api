@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjA0Ljg5Mzg3MiIsInVzZXJfaWQiOiI0NDNjNzczOC1iM2YyLTQ1YTQtYWY5ZC1mMjU5MmYxNTY1NzIifQ.06uVHONPjqSl61he9HjrRiG_owKOHgm8a2DkxEexkQs' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental information carry trial resource.","maxScore":94,"minScore":17,"description":"Staff put hotel born. Pressure general event coach throughout offer consumer. Administration relate during rate prepare.","estimatedTime":"4 weeks","previewFileId":"e26337f6-6e0a-4464-a93c-440994ffe55c","createdByUserId":"443c7738-b3f2-45a4-af9d-f2592f156572"}'

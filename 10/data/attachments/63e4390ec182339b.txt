@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjA0LjI3OTE4NiIsInVzZXJfaWQiOiIyMGYzYjI1MS1kYWMwLTQ4NmEtOTFlZC03NDFlYmE2OTFiMzUifQ.6Xd8qu5Dw1AzO84rlSYUN2IUtr3GPuNgLD1XP73yF1c' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See only else seek want discover generation.","maxScore":88,"minScore":19,"description":"Cover you argue goal wish often perform. Total reflect among cell way. Perform soon adult one any knowledge.","estimatedTime":"3 weeks","previewFileId":"4b5dbe49-2053-4ad0-ad77-2b8969de74d4","createdByUserId":"20f3b251-dac0-486a-91ed-741eba691b35"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjI2OjA3LjMzNTg5OCIsInVzZXJfaWQiOiJhZTU5Mzc0My0wMDhlLTRkYTAtOWNhZS00ZWI5YjkyN2VkYTMifQ.IBj9EHW6XLIOVweMoH_I0mo7v2Zi6TaZYy9FAp0Tidw' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon tough buy rule guy watch job.","maxScore":57,"minScore":2,"description":"Short church blood office moment outside. Politics its lead people yard recognize program ready. Style reduce so.\nCountry provide pressure plan. Create official assume.","estimatedTime":"10 weeks","previewFileId":"52738bc0-6ad1-4b84-a316-52e7ca00809c","createdByUserId":"ae593743-008e-4da0-9cae-4eb9b927eda3"}'
