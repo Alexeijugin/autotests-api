@@ -87,7 +87,7 @@ jobs:
           path: coverage.html
 
       # 8. Шаг для загрузки результатов Allure в артефакт
-      - name: Upload  Allure results
+      - name: Upload Allure results
         uses: actions/upload-artifact@v6.0.0
         if: always()
         with:
