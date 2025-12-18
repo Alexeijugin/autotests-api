@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjA0LjAwNTMyOSIsInVzZXJfaWQiOiI3NzViYTUwMy1jMDMzLTQ5NDEtYTBmMS0yNjU1Zjk1YjFhOTEifQ.UEgeZrtVIw9CC8lVDztWmoHW2d6l89EYwPjT9ltoV3w' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side and team.","courseId":"4a33d583-11e7-4d7f-ba17-db776c6ecd96","maxScore":51,"minScore":19,"orderIndex":2,"description":"Region prepare little a look score why. Effect discussion design design easy put. Decide imagine person us.\nAs fact air never find.","estimatedTime":"5 weeks"}'

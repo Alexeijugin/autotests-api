@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjA1LjIxNzUwMiIsInVzZXJfaWQiOiJlNmM0YzQzNS03Y2I3LTQ4N2YtYTNhZC0zYWRhNzk3YzUxY2EifQ.XCmw9ktB0wbuC7euWODOXteqBFK2KfCaz5SQgiw4ZdQ' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sea low always voice ever seek sometimes.","maxScore":91,"minScore":8,"description":"Wide stop type newspaper. Show popular growth.\nOfficial between necessary also.","estimatedTime":"7 weeks","previewFileId":"befe7c6b-df27-4964-a6a6-1c5a7230b78f","createdByUserId":"e6c4c435-7cb7-487f-a3ad-3ada797c51ca"}'

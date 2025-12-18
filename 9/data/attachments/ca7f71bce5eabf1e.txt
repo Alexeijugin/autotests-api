@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjAzLjQxNDIwNCIsInVzZXJfaWQiOiIzODljNGZkYS1iZGJlLTQ0M2MtYjAxZi1lYzljMWJmYzlkNzYifQ.nB1xquhhbQqBg8k26Xq_Ivrr4ZUqeVhJElj9Qq93pjg' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior success pay center.","courseId":"842c3304-c9c6-44b5-940c-71e7f0f05189","maxScore":83,"minScore":8,"orderIndex":28,"description":"Gas office different opportunity. Present sit alone modern change agree rich.","estimatedTime":"8 weeks"}'

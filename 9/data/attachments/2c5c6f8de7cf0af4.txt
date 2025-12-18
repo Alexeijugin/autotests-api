@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjAzLjQxNDIwNCIsInVzZXJfaWQiOiIzODljNGZkYS1iZGJlLTQ0M2MtYjAxZi1lYzljMWJmYzlkNzYifQ.nB1xquhhbQqBg8k26Xq_Ivrr4ZUqeVhJElj9Qq93pjg' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase remember sit reduce season about.","maxScore":56,"minScore":6,"description":"Summer campaign simply economy central. Court article everyone television listen.\nSeveral pattern similar. Possible weight occur. Human early change person career positive.","estimatedTime":"1 weeks","previewFileId":"21e7cb6a-40bd-439a-9ed1-6b70099c30e0","createdByUserId":"389c4fda-bdbe-443c-b01f-ec9c1bfc9d76"}'

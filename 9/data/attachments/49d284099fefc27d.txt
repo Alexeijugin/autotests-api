@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjA1LjIxNzUwMiIsInVzZXJfaWQiOiJlNmM0YzQzNS03Y2I3LTQ4N2YtYTNhZC0zYWRhNzk3YzUxY2EifQ.XCmw9ktB0wbuC7euWODOXteqBFK2KfCaz5SQgiw4ZdQ' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seat wish public girl easy test plan.","courseId":"402508cf-534b-4a87-be4e-7e3a17121ab4","maxScore":63,"minScore":10,"orderIndex":38,"description":"Actually fund civil develop. Site job fill defense fly. Financial in region add.","estimatedTime":"5 weeks"}'

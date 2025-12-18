@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjA1LjgwNjAyNCIsInVzZXJfaWQiOiJmNDU3NDhjNS04NzA3LTRlZjMtYThmMi04NDczZmNmNzEyMDgifQ.0r15KiEFD0opTWN2A4OS9XYqAmIf9QsvyH_PIZsPoqo' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Follow hand election major measure evening.","maxScore":90,"minScore":20,"description":"Professor life front school myself PM. Listen loss end skin television large. Memory black part necessary.\nHalf sister because conference. Black off city record whether.","estimatedTime":"10 weeks","previewFileId":"08dd1b68-8d9b-465c-8917-dc1cf7b7426f","createdByUserId":"f45748c5-8707-4ef3-a8f2-8473fcf71208"}'

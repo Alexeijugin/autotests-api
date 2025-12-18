@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjAxLjY0NjE2NyIsInVzZXJfaWQiOiI2YmUyOGQxMy1hNGFmLTQyMmYtYThlMS1iNmJmOTEwYmEyM2IifQ.dzt9oi5YrzIY3kQwOPf6fYTBZT7l_UTYmZ6mRH6ceQs' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea into trade practice beat.","maxScore":79,"minScore":26,"description":"Suffer training like another individual never treatment brother. Top left life mind walk shoulder must. Why total best discussion culture one goal.","estimatedTime":"9 weeks","previewFileId":"88cf1408-97bc-4dfe-9a43-addd63b788fd","createdByUserId":"6be28d13-a4af-422f-a8e1-b6bf910ba23b"}'

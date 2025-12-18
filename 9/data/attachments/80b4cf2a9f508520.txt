@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjA0LjAwNTMyOSIsInVzZXJfaWQiOiI3NzViYTUwMy1jMDMzLTQ5NDEtYTBmMS0yNjU1Zjk1YjFhOTEifQ.UEgeZrtVIw9CC8lVDztWmoHW2d6l89EYwPjT9ltoV3w' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"They take detail.","maxScore":94,"minScore":22,"description":"Return agent himself though. Response course now paper hear. Stay surface life church.\nEnergy his rate exist suffer ground. Protect know them shoulder career less mouth. Country loss model.","estimatedTime":"10 weeks","previewFileId":"30152a0f-8191-4ebd-a4ad-5e92eeb54ae1","createdByUserId":"775ba503-c033-4941-a0f1-2655f95b1a91"}'

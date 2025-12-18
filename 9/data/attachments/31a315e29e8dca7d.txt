@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/e15deb71-eb91-45e2-94d0-649a278d92d3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjA0LjAwNTMyOSIsInVzZXJfaWQiOiI3NzViYTUwMy1jMDMzLTQ5NDEtYTBmMS0yNjU1Zjk1YjFhOTEifQ.UEgeZrtVIw9CC8lVDztWmoHW2d6l89EYwPjT9ltoV3w' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foreign interest stage team fear consumer everybody.","maxScore":93,"minScore":17,"orderIndex":49,"description":"Compare through beautiful probably most how miss.\nKitchen discuss develop maybe. Good American test skill film. Cultural stand once ever enter.","estimatedTime":"2 weeks"}'

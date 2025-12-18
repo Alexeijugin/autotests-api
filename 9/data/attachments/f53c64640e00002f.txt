@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c5ae9bd5-efff-4588-be70-4980f257ce31' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA4OjA5OjAyLjIzMjg0NiIsInVzZXJfaWQiOiI4NjBlYTdiNy0xNTRiLTRmZDUtYmE1OS1jMDhhMDYwM2Y1YTUifQ.7qXbXSFQlxommhSni-ULsKRqbtg5UTGzL4Z02n1lAPY' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant trouble that kind during.","maxScore":70,"minScore":20,"description":"Care article ready blood movie. When player but around. Hour mean mission again visit.\nRange I seek always. Rule over long effect. Down future watch color result hotel eight.","estimatedTime":"2 weeks"}'
