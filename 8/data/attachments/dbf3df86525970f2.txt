@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQzLjUxNTU4OSIsInVzZXJfaWQiOiJhYjZjMGY4NS04MzY5LTRiODQtOTc0Ny05YzZhZmMzODJhMWIifQ.d20k8j3RrHzUiMSUZVIhN8j7PUD0FdXbP4z9RDOIjoo' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home strategy environment sister media.","maxScore":71,"minScore":10,"description":"Police left sit shoulder. Poor see manager number whether guess. Whether rate laugh piece couple far.\nBehind accept food early I impact pressure.\nNecessary how tough career necessary court.","estimatedTime":"10 weeks","previewFileId":"ee911486-abc2-4029-8c37-a18403bb777b","createdByUserId":"ab6c0f85-8369-4b84-9747-9c6afc382a1b"}'

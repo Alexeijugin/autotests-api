@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQzLjI0MzAyMSIsInVzZXJfaWQiOiIyNmViNjA3YS0xNmQzLTQyYmUtODQwYS00YTYxZjc0NDE5YTcifQ.zEmEZ1LFu-QJTIg5ww638KbWWHBbk1PCK4lMjppO_4U' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence dog ask reach beyond final.","courseId":"54c00185-0a6e-4679-aecc-c57014f92c3f","maxScore":96,"minScore":30,"orderIndex":25,"description":"Hour challenge assume never fine almost phone. Left miss carry professional summer what conference show. These now the pass.","estimatedTime":"1 weeks"}'

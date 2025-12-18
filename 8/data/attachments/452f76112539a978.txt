@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQzLjI0MzAyMSIsInVzZXJfaWQiOiIyNmViNjA3YS0xNmQzLTQyYmUtODQwYS00YTYxZjc0NDE5YTcifQ.zEmEZ1LFu-QJTIg5ww638KbWWHBbk1PCK4lMjppO_4U' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Little how forward PM avoid.","maxScore":71,"minScore":26,"description":"Since range consumer standard build medical south. Quality send financial majority impact card seven magazine.\nWeight money wife either bed have. Door forward medical white animal receive air.","estimatedTime":"1 weeks","previewFileId":"7170dfdd-045d-4bfc-81a2-352e91fff9d9","createdByUserId":"26eb607a-16d3-42be-840a-4a61f74419a7"}'

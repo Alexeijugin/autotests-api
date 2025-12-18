@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQwLjYxNzIyMSIsInVzZXJfaWQiOiJiMTY4NWI2Yy1mODUxLTQzYTctYTY4OC0zZDdkN2JlZWQ5ZjYifQ.EbyVeLEf3nXUfqdyQm_fLPXwdphtDcJt333B1n1pZ2Y' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop far book area.","maxScore":51,"minScore":11,"description":"Matter shake ready time. Last list image member role country lawyer. Keep environment sing answer order offer.","estimatedTime":"6 weeks","previewFileId":"95f12675-2e69-4fc2-9431-515bf49648ce","createdByUserId":"b1685b6c-f851-43a7-a688-3d7d7beed9f6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQxLjE5ODQ4MyIsInVzZXJfaWQiOiJjYjRkOTg3NS0xZTZmLTQxNGQtODQ1My1lZjQxZDJiYjYxYjYifQ.c9xRgMyClf88JeGvg2DTXGm948EV6xML9QROQn3A5QI' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community me right course.","maxScore":100,"minScore":27,"description":"Response focus between not responsibility season. Service foreign be where film condition stage.","estimatedTime":"7 weeks","previewFileId":"4c2a248b-251d-4789-9e67-228796b0d87f","createdByUserId":"cb4d9875-1e6f-414d-8453-ef41d2bb61b6"}'

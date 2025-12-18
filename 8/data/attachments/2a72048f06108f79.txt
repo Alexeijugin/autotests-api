@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5990b205-cbd4-44b1-a29a-50e533d5a7ab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQwLjYxNzIyMSIsInVzZXJfaWQiOiJiMTY4NWI2Yy1mODUxLTQzYTctYTY4OC0zZDdkN2JlZWQ5ZjYifQ.EbyVeLEf3nXUfqdyQm_fLPXwdphtDcJt333B1n1pZ2Y' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put past month baby gas fast specific.","maxScore":93,"minScore":22,"description":"From once medical against Mrs claim western indeed. Than especially good blood through season.\nTen appear benefit term score beautiful future catch. Against take fear establish maintain.","estimatedTime":"10 weeks"}'

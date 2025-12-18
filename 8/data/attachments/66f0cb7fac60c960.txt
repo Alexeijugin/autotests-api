@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQ0LjQzMTkwNiIsInVzZXJfaWQiOiJmMDkwMTg0YS1jZjNhLTQ2YjUtOGIyNi0wY2MxMjExMzQzNTIifQ.Dh_nbJJ5FbDclwwFz8AXBKELGjiO5471U47RhDIxgJ4' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy professor court read boy scientist.","maxScore":69,"minScore":21,"description":"Agency program reveal day suggest. Against situation marriage.\nWife discover important. Board perform score. Action anyone improve start heart his.","estimatedTime":"7 weeks","previewFileId":"5ad671c1-d293-4a01-82c1-f80ef6138475","createdByUserId":"f090184a-cf3a-46b5-8b26-0cc121134352"}'

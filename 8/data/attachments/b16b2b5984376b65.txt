@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjUwOjQyLjM0MTA5NCIsInVzZXJfaWQiOiJmMDdhODUyNC1iNTIyLTRmZjQtYjE5Yi0wMzE3OGJjOWVjNGMifQ.o7ILdrUcGBEznndo12cZi3VG-IOF5nvCq4TW41t41HQ' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choose hit television without rate area building.","maxScore":65,"minScore":6,"description":"General operation everyone truth. Use anything story hour many.\nStay role offer claim. Author care Mr billion during. Behavior officer role include.","estimatedTime":"2 weeks","previewFileId":"f2124563-1296-47d6-9584-9115f2fe3831","createdByUserId":"f07a8524-b522-4ff4-b19b-03178bc9ec4c"}'
