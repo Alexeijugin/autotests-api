@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjM3LjkwOTQwOCIsInVzZXJfaWQiOiIxYWQ2NjkzYi0zYjYzLTQ1OTktODEwOS0zNTM5NTllZTMyNTIifQ.I6m1R_gvUewL5817p1QmgUIiJKCc2QPW-oQBrP4grHk' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final south deal technology ahead him.","maxScore":60,"minScore":15,"description":"For stage seem big picture memory matter. Total car husband them. Huge energy six fight little scientist.\nAdmit turn left. Moment surface go prove.","estimatedTime":"5 weeks","previewFileId":"98d6f507-71bd-4b66-9e34-f0b70bc9e874","createdByUserId":"1ad6693b-3b63-4599-8109-353959ee3252"}'

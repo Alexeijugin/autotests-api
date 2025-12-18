@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjQwLjg4NzI1NiIsInVzZXJfaWQiOiI0YWExOTUwZC05YjBjLTQ4MjAtYmY0ZS1iNTAxNjVkYjhiNGYifQ.gJAvXN-E6Hj_l3mP20Fp1VP_19p8OM57gAKh5qOL_js' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Really stop concern he our prove.","courseId":"1779ac3e-8a91-494c-9307-72ae4f25e8f8","maxScore":76,"minScore":26,"orderIndex":77,"description":"Congress news especially week conference ever movement. Pay analysis which degree. Hard north while at close contain. Picture opportunity sing without always.","estimatedTime":"1 weeks"}'

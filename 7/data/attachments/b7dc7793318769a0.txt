@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjM5LjE0MjU3NyIsInVzZXJfaWQiOiI3OTUwZTk0OS0yMTY4LTQ3MjktYmZkZC1iYzNjMmY2YTg5MzgifQ.Je4UO2pv43Zk2gqD2EHAcg8KovUIsLqeyFHD1jcFK08' \
+  -H 'content-length: 452' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than performance various maybe glass police fall especially.","maxScore":61,"minScore":3,"description":"Available article hard our. Hundred office live then eye option structure. Determine thus father.\nThank summer tell young month require. Both recognize key best remain. Reduce instead such partner.","estimatedTime":"8 weeks","previewFileId":"94847a9d-a434-4219-9db1-69d5274798a2","createdByUserId":"7950e949-2168-4729-bfdd-bc3c2f6a8938"}'

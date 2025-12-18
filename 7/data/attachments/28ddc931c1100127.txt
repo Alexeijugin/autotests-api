@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjQyLjExMTk3OCIsInVzZXJfaWQiOiJhY2E1ZmRlYS0yYzZhLTQwYmQtODBjNy00YjY4MGE0OWM5M2YifQ.vZiCktBB-RZBKg8G0DNzQOxSpBYztIUt786KHV6c3gY' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least ever mention wife protect who.","courseId":"53ba468c-0af7-4f4f-bfc6-ac7ad9f4e487","maxScore":64,"minScore":30,"orderIndex":43,"description":"Produce lot television there same. Assume particularly wind follow fact produce.\nCandidate beyond put space safe form people. Thank in member consumer work traditional collection tax.","estimatedTime":"2 weeks"}'

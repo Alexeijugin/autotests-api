@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjM4LjQ5NDAwMyIsInVzZXJfaWQiOiI4OGI2ZTkxYS1hYThiLTQwN2QtOTUwYy1hMWJkYThiNTAzYjYifQ.qXOcC9x_VimGddTINdbMs5y_EUPq6GJSvgVt7J7aRhw' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big force many probably.","maxScore":89,"minScore":14,"description":"Pm amount investment box responsibility artist to. Without pay hospital beyond. Early represent week.\nWait ago old market little with rather successful.","estimatedTime":"2 weeks","previewFileId":"ab054e60-dd91-47d8-842e-61cfd73182df","createdByUserId":"88b6e91a-aa8b-407d-950c-a1bda8b503b6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjQwLjg4NzI1NiIsInVzZXJfaWQiOiI0YWExOTUwZC05YjBjLTQ4MjAtYmY0ZS1iNTAxNjVkYjhiNGYifQ.gJAvXN-E6Hj_l3mP20Fp1VP_19p8OM57gAKh5qOL_js' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Past fire lead social page.","maxScore":88,"minScore":21,"description":"Tough sometimes federal step north by. Possible test bit game. Life security task.\nWar half say night impact participant strategy. Theory while bank place join although.","estimatedTime":"6 weeks","previewFileId":"1e2e682c-1a70-4709-8646-089099030f88","createdByUserId":"4aa1950d-9b0c-4820-bf4e-b50165db8b4f"}'

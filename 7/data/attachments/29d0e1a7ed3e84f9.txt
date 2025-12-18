@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjM5LjcyNjE2NCIsInVzZXJfaWQiOiI5NDI1Njg1My0yMjg2LTRmMDEtYmI5Zi05MjRhY2MwYWQzMDcifQ.kLZFhk376ZUj6MYwBxEpU9znj9OuEG0utRYU4ftXsqg' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recent system dinner summer.","maxScore":51,"minScore":2,"description":"Report require inside sea civil pay happy save. Behind stuff realize population region politics continue. Send civil draw myself point well.","estimatedTime":"3 weeks","previewFileId":"90b4bd1c-e762-4e96-809c-46074bd0ba58","createdByUserId":"94256853-2286-4f01-bb9f-924acc0ad307"}'

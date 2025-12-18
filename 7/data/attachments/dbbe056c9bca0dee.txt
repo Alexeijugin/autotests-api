@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDA3OjMwOjQxLjUzMjQ1MCIsInVzZXJfaWQiOiI2YmIyNTAyOS02NDU2LTQ3YjAtYWM1Ny04M2ExY2I1MjMyM2QifQ.uh47W3Cv9qbn7mXzuZTtiXrDlwEku71lXF1-s-Q5O28' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Music now inside smile somebody likely generation.","maxScore":87,"minScore":22,"description":"Young spend early space beautiful along organization. Democratic business I year attack could traditional.\nCost argue manage size Mrs either.","estimatedTime":"1 weeks","previewFileId":"cb39458e-1de6-4dac-82ed-4156816f5248","createdByUserId":"6bb25029-6456-47b0-ac57-83a1cb52323d"}'
