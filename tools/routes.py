@@ -1,6 +1,6 @@
-from enum import Enum
+from enum import Enum, StrEnum
 
-
+# class APIRoutes(StrEnum): - позволяет не переопределять магический метод
 class APIRoutes(str, Enum):
     USERS = "/api/v1/users"
     FILES = "/api/v1/files"
