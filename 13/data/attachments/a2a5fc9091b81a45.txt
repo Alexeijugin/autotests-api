@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjQ4OjUwLjMzNTU1NSIsInVzZXJfaWQiOiIyODRjYmI4ZC01ZGZlLTQ4MDMtODFkMS1mMDExODk5YWZiMGQifQ.96JmCXw4wFGtPQ60_fqf6EMFdHJLvRX9uTpN3n1_RD8' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son try once happen candidate special fish happen.","maxScore":67,"minScore":15,"description":"Act political walk why fish add.\nTv tough hour who garden degree. Society letter eat color. Security imagine dog civil her can similar nor.\nState place number cost. Deal page despite.","estimatedTime":"6 weeks","previewFileId":"fa6171c5-e4e9-4ccd-83ec-c587186885db","createdByUserId":"284cbb8d-5dfe-4803-81d1-f011899afb0d"}'

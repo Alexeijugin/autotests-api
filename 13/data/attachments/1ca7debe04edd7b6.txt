@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/4efefede-b2ae-4636-93d1-a5cf2a3ef2bb
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/exercises/4efefede-b2ae-4636-93d1-a5cf2a3ef2bb
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:62 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 4efefede-b2ae-4636-93d1-a5cf2a3ef2bb
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Expect account produce eye role well data.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 741a7b50-0a4c-4945-8f69-c5a0e065ad0f
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Talk stuff task question especially science. Alone citizen laugh inside myself relationship outside. Mrs field couple about left.
+Factor middle certain use important toward. His rest body indicate.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

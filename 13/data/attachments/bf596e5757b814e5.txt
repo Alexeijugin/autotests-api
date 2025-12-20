@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:83 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Win current treatment over different.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Public word current company. Check total radio itself class raise little.
+Claim hour campaign money.
+Four body they community can across gun. Drug forget southern east people phone.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 80457681-012e-43dc-ab3c-e37d883e7035
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to cbeea5f0-4c00-4c35-b164-743cd3c9f9d7
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

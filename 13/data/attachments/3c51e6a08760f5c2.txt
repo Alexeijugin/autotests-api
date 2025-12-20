@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjQ4OjQ5LjE2ODUyNyIsInVzZXJfaWQiOiJjYmVlYTVmMC00YzAwLTRjMzUtYjE2NC03NDNjZDNjOWY5ZDcifQ.tSJGg1mLrBaCidlzH1ynaVvzrHAmiMFrXi2EhEKu2nk' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win current treatment over different.","maxScore":59,"minScore":14,"description":"Public word current company. Check total radio itself class raise little.\nClaim hour campaign money.\nFour body they community can across gun. Drug forget southern east people phone.","estimatedTime":"1 weeks","previewFileId":"80457681-012e-43dc-ab3c-e37d883e7035","createdByUserId":"cbeea5f0-4c00-4c35-b164-743cd3c9f9d7"}'

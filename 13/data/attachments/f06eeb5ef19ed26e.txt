@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjQ4OjUxLjU2NTI4OSIsInVzZXJfaWQiOiIxNmJhYTdjMS03MzU5LTRhMTMtOTA3OS0yZmE4Mzc1ZjM1MmIifQ.EcdmLtw29WfsqVYdAt9uDicgPF5nika6w7nILm-Y6zg' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock until add college.","maxScore":59,"minScore":7,"description":"Music impact nice including almost impact. Father really well. General less everybody year general page serious.","estimatedTime":"2 weeks","previewFileId":"a09d3403-373b-47bc-a8ae-43bd6b2d9061","createdByUserId":"16baa7c1-7359-4a13-9079-2fa8375f352b"}'

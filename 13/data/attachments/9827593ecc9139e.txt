@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b00c9458-7c79-4b4e-980c-7c3ba6907368' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjQ4OjQ4LjUyNjgxMyIsInVzZXJfaWQiOiI3ZTU4N2Q5MC0xZWY4LTQ1NDctOWMzMC0yMjVkNDcwMTIzNGQifQ.H-RH9yMBKUi3-Dv_IRPmsaPfx23D-zHTFK_UE24tMh0' \
+  -H 'content-length: 170' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid young brother interest each table key.","maxScore":94,"minScore":9,"description":"Space action organization thank white success.","estimatedTime":"7 weeks"}'

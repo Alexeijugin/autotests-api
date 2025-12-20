@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjQ4OjQ3Ljk0MjY5NyIsInVzZXJfaWQiOiJhZGJkYjI0Zi1hMWY2LTRlNWQtYTk1Zi04NTc5ODRhZTIzMWMifQ.8xQZL0MVsEt3TJlQWHTte_R7tWHWzu1rFPfmqDJIs3I' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give western time by rich every word.","maxScore":55,"minScore":25,"description":"Than kind several who. Stand finish cup knowledge culture past radio.\nPoint night friend market political.\nThought list reach weight paper view never thank.","estimatedTime":"5 weeks","previewFileId":"d12603bb-241a-4061-aabd-0b94b29962e9","createdByUserId":"adbdb24f-a1f6-4e5d-a95f-857984ae231c"}'
