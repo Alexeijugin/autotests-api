@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjMzLjYzNDQzMiIsInVzZXJfaWQiOiJhMmJjZmJjYS00YmMyLTQ3YTgtOTE1My1iZDdmOWY5NjVjNTAifQ.4OkWOvnyRsTp4KaZpV9wfn4yEuIVAg3O0MgX8QumAa0' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier create it sister.","maxScore":62,"minScore":24,"description":"Most consider range environment mention report. Strong attack wife such television think. Give including instead director list.","estimatedTime":"9 weeks","previewFileId":"65d65fb8-b5dd-46fb-a732-ba977777db9f","createdByUserId":"a2bcfbca-4bc2-47a8-9153-bd7f9f965c50"}'

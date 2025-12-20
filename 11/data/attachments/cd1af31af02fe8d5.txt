@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjMzLjM2MTY1OCIsInVzZXJfaWQiOiIxMDQ3OTBlOC1lOTNmLTQzOGUtYTJmMi1kMDQyMTMzODE5NjQifQ.2mLH7G3Bk5kl8q-Hsb1gI_K627FwEoZx7Y_Q1CDruNw' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once by daughter image floor how.","maxScore":95,"minScore":10,"description":"Every for remember reality. Full all like writer recently page.\nEvery goal another name forward sense. Street enter color there kid. Our require bag along citizen. Measure require throw sit.","estimatedTime":"9 weeks","previewFileId":"f229abfd-245e-4d2d-bd79-e62dbf66802e","createdByUserId":"104790e8-e93f-438e-a2f2-d04213381964"}'

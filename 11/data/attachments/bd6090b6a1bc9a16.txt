@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjMzLjM2MTY1OCIsInVzZXJfaWQiOiIxMDQ3OTBlOC1lOTNmLTQzOGUtYTJmMi1kMDQyMTMzODE5NjQifQ.2mLH7G3Bk5kl8q-Hsb1gI_K627FwEoZx7Y_Q1CDruNw' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest nature audience.","courseId":"508fd43c-6c34-45f2-b1d4-fd0dd2368db4","maxScore":62,"minScore":5,"orderIndex":5,"description":"Series discussion yeah media I pass official. Least against capital wall.\nCrime ready feel serve available full.\nAdmit realize support. Without future stand choose idea.","estimatedTime":"1 weeks"}'

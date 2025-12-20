@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjM0LjU0MDM5OCIsInVzZXJfaWQiOiI4NzJjODk3Ny1lN2Y0LTQxMGUtOTcwNC0yMGMwN2M1ZGI2MTkifQ.hHqv4dgdkKJXyN4ceXWzpx4Har7tiNjnatcFylydQlY' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy control because bed well industry also blood.","courseId":"e4fb19e4-1123-47a9-99ce-41282ee0ea74","maxScore":78,"minScore":24,"orderIndex":74,"description":"Part who show.\nAcross word father chair. Idea piece least I share east establish. Side interest let play company listen.","estimatedTime":"7 weeks"}'

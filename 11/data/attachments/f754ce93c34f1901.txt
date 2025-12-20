@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjM1LjQ5MjExNSIsInVzZXJfaWQiOiJlY2M2ZThkNy0yOGEzLTQ2MTItODQ1NC00Yjc1NTY5ZjQ1OTgifQ.Llou7bWGad6OFQgy5Li990aF02nFsYWuVqYy_VN87uk' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Toward newspaper citizen process view.","maxScore":59,"minScore":3,"description":"Seat policy boy pull subject. Make year could write only note. Usually my camera practice pressure ready.","estimatedTime":"1 weeks","previewFileId":"a0f6d430-54d5-4860-a55f-ea26e3ae85ec","createdByUserId":"ecc6e8d7-28a3-4612-8454-4b75569f4598"}'

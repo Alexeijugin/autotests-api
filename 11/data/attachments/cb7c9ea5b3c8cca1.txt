@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/courses?userId=32ab79dd-c7cc-4cee-afec-249342fac285
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=32ab79dd-c7cc-4cee-afec-249342fac285
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:67 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:42 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 2caf9e3c-73fe-48aa-b45c-7e07f75ad4fc
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Strategy study against stage mother.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 71
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Eight draw respond whose trouble population food. Low girl establish time news major during. Form half discussion student apply responsibility four. Since benefit everyone fly.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     FILES_ASSERTIONS:files.py:40 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 37e128c9-137c-423d-85c6-9539b035ba8f
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/53bd4811-7880-4927-b9de-d1e8beab3c96.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 53bd4811-7880-4927-b9de-d1e8beab3c96.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 32ab79dd-c7cc-4cee-afec-249342fac285
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to tiffany19@example.org
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Palmer
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Angela
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Shawn
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

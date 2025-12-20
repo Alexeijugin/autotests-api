@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjMyLjQzNzIzOSIsInVzZXJfaWQiOiIwZjNiNzdkZS1jMWM3LTRhNTUtYWRjYi0xMDI3ZWIxMTNjNTEifQ.qYnfwZLUkeyTEBFvATNBBBsqpwGfVsvbYGWMP8ozsFI' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Issue very anything their.","maxScore":64,"minScore":23,"description":"Only draw return growth. Professional board million boy make card hold. Join foot success according fly commercial down.\nOpportunity trade pay blood rest among deal.","estimatedTime":"1 weeks","previewFileId":"e0135408-4ccb-4e93-956a-8393756aa4b9","createdByUserId":"0f3b77de-c1c7-4a55-adcb-1027eb113c51"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjAzOjMxLjAxNzkwMCIsInVzZXJfaWQiOiIzMmFiNzlkZC1jN2NjLTRjZWUtYWZlYy0yNDkzNDJmYWMyODUifQ.9Q-2s-HhVduDdzTXrmo2AecgKxWYgu7cLfidgKOCBCE' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy study against stage mother.","maxScore":71,"minScore":10,"description":"Eight draw respond whose trouble population food. Low girl establish time news major during. Form half discussion student apply responsibility four. Since benefit everyone fly.","estimatedTime":"6 weeks","previewFileId":"37e128c9-137c-423d-85c6-9539b035ba8f","createdByUserId":"32ab79dd-c7cc-4cee-afec-249342fac285"}'
