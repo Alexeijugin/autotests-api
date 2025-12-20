@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjEzLjI3NzU3NSIsInVzZXJfaWQiOiI0ZDgyZDQ0ZC1kNzdhLTRhNjQtYmE3MS0yNDc2YjI2YTM0ZDIifQ.CGkjR5ZIe9tBnF9jvor1xujqFcqbYZICp2HdEOCJSAQ' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred perform election woman yes its.","maxScore":81,"minScore":7,"description":"Soon recently quickly pattern ball along. Attack clearly write quickly population. Range court training all environmental bring newspaper improve.","estimatedTime":"5 weeks","previewFileId":"0bbd099a-e2f5-44fd-a76b-4797c7d23cf8","createdByUserId":"4d82d44d-d77a-4a64-ba71-2476b26a34d2"}'

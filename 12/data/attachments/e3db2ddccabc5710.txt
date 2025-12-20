@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE1LjQwODgzNCIsInVzZXJfaWQiOiJmMDQ2MjhhMS0wNjBhLTQyZGEtOTgxOS1lZDg3OWZjNzY5MjgifQ.rGEJsi14DAL3fPpVRo77dpYEE0WvgfSgXk2xm42ppTM' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay truth beat part offer.","maxScore":58,"minScore":30,"description":"Space history suffer moment forget on. Him ability lead budget represent beyond dinner. Increase Mr season leg than. Bad fight arm red foreign center.","estimatedTime":"10 weeks","previewFileId":"6901958b-37ac-49a8-8ed2-39c3b67cd904","createdByUserId":"f04628a1-060a-42da-9819-ed879fc76928"}'

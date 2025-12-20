@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE0LjIxNjQ5MSIsInVzZXJfaWQiOiJlOTQ0YmJmMi04MzRiLTRkYTctOGI2Mi05M2NhMDE4Zjg4NDgifQ.9quB3kKyUdjykJOxh6QqEsmPgx7NjdQAaRKPArTJN4M' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"First make color girl require eat population.","maxScore":76,"minScore":2,"description":"Compare mission couple discover far deep wrong. Raise fish million business. Chair question simply stuff dark.","estimatedTime":"6 weeks","previewFileId":"c34ad9a5-6c35-482b-9a04-1b66a08c4425","createdByUserId":"e944bbf2-834b-4da7-8b62-93ca018f8848"}'

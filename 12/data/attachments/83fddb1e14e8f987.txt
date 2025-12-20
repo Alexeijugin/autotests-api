@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE0LjQ5MjM4NCIsInVzZXJfaWQiOiIxODE4MGQ0Yi1kMDdhLTQ1ZTMtYjBiYy05NDk5NDFhYTljMWEifQ.9uiM0ysX_Fn56Dq5SgWymfqyTqb7o_y5K9q9DRdde_Q' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effort town machine across challenge eye old.","courseId":"908be33a-ed9c-403c-9aae-dd4c99049001","maxScore":71,"minScore":20,"orderIndex":90,"description":"Prevent billion check traditional. Program want citizen forget fast kid. Fire some eye series reduce civil carry.","estimatedTime":"6 weeks"}'

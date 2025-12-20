@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjExLjg1MzUwNiIsInVzZXJfaWQiOiJkOGQ0ZTZkMi0xMDBjLTRkZmYtOTYxZC1iNmU4NzIyMjFmMTEifQ.qTWesLTIIJzONgyhOn4TAEPVPCzNXvg2cEZs9CSN0vg' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume under road we challenge chance computer.","maxScore":56,"minScore":14,"description":"Break world act any move beat idea. Woman those party event industry development. Kid model over family.\nLeave open try rather. Sit past woman let.","estimatedTime":"6 weeks","previewFileId":"5b6652e5-2571-48fb-b173-0b5d456b6138","createdByUserId":"d8d4e6d2-100c-4dff-961d-b6e872221f11"}'

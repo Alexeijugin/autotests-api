@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/dffa70f6-0367-4abe-a434-7010a1a52494' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE0LjQ5MjM4NCIsInVzZXJfaWQiOiIxODE4MGQ0Yi1kMDdhLTQ1ZTMtYjBiYy05NDk5NDFhYTljMWEifQ.9uiM0ysX_Fn56Dq5SgWymfqyTqb7o_y5K9q9DRdde_Q' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Second term quickly southern lay term.","maxScore":84,"minScore":14,"orderIndex":1,"description":"Former note place idea. Free suffer value board.\nExist very can rich drug shake. Democratic method experience little bag.","estimatedTime":"3 weeks"}'

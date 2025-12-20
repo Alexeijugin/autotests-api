@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE1LjY4MTYzNCIsInVzZXJfaWQiOiIxMzU0MmEzNS1mZmRlLTQ2YzctYWE4NS1lNGY3NjQ3MTg4OWUifQ.kA2v85-ET-9cBfZizBTB1y_4KVhcaO2U7bFqAwb4Pzc' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People part attack.","maxScore":59,"minScore":26,"description":"Bed help share wall old. Someone now across go officer people question.\nSerious tonight also rock. Other act that. Compare newspaper discuss current. Growth list according off.","estimatedTime":"5 weeks","previewFileId":"a537e85d-0963-4480-9464-d9f7784e53e1","createdByUserId":"13542a35-ffde-46c7-aa85-e4f76471889e"}'

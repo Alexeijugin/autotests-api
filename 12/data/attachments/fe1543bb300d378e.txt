@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE1LjQwODgzNCIsInVzZXJfaWQiOiJmMDQ2MjhhMS0wNjBhLTQyZGEtOTgxOS1lZDg3OWZjNzY5MjgifQ.rGEJsi14DAL3fPpVRo77dpYEE0WvgfSgXk2xm42ppTM' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All floor machine especially wait change.","courseId":"494ec3db-1f97-40c5-ac42-5fb5fd9c2eb4","maxScore":64,"minScore":19,"orderIndex":2,"description":"Group value certain crime represent. Be tree individual notice however personal. Big cold civil vote another car skin.\nPicture knowledge south water return whatever. Charge forward to cell.","estimatedTime":"6 weeks"}'

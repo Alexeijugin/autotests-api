@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE2LjYxMDMyNSIsInVzZXJfaWQiOiIzNTZhYWYwNi01NTc0LTQ3OGYtOTE1MC1mYzJhYTkyZmQ3YWIifQ.trz0N_pL6GDGoFpxPFwZu8lJKlf6HYhAD11EbUbDmHI' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun person collection read more.","maxScore":60,"minScore":19,"description":"Week power seem them drop debate. Three require choose part build pay.\nHuge exactly worker establish voice take machine. Project from radio treat run decade record model.","estimatedTime":"1 weeks","previewFileId":"6d0233bd-7b79-4895-b832-5a83f54df0dc","createdByUserId":"356aaf06-5574-478f-9150-fc2aa92fd7ab"}'

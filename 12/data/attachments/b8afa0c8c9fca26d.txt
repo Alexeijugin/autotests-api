@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDExOjI0OjE1LjY4MTYzNCIsInVzZXJfaWQiOiIxMzU0MmEzNS1mZmRlLTQ2YzctYWE4NS1lNGY3NjQ3MTg4OWUifQ.kA2v85-ET-9cBfZizBTB1y_4KVhcaO2U7bFqAwb4Pzc' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Success form beat wear focus whatever trip participant.","courseId":"da4a7729-1f58-44e6-b882-d8c8035b8d52","maxScore":60,"minScore":22,"orderIndex":79,"description":"Sign when save. Sure cell time public they.\nAttorney animal southern risk under after do yet. Subject goal onto research father green. Product letter rest your take like wife here.","estimatedTime":"2 weeks"}'
