@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjI1LjE3MjQ5NCIsInVzZXJfaWQiOiI5YmM1NDYyZS0zYmQ0LTQ1NzctYmVmMS0xYWY5NTBiZjA0YTcifQ.VzO1zVRAzeUX67LnDbEdF0SHsK1Q_ayGP8vaGUe2lcA' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime population big police.","maxScore":67,"minScore":3,"description":"Leader usually hotel strong peace scene attorney.\nTalk claim size nor range main everybody four. Every woman entire improve.\nRecord once defense walk.","estimatedTime":"9 weeks","previewFileId":"6c190eb7-4452-4da4-8111-28b64eaee980","createdByUserId":"9bc5462e-3bd4-4577-bef1-1af950bf04a7"}'

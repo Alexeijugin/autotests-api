@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjI0LjUyNDg1MyIsInVzZXJfaWQiOiJjZmQyODdlNS02N2FmLTRiMTUtYWJiNi00MzY0MDk5YjIwN2MifQ.AhbCBJwEo27jzhCvolutI58GJK5xXmNKIXlBUb8ej4Y' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remember entire kitchen.","maxScore":85,"minScore":13,"description":"Difficult summer until cause home half interesting. Class drug little main base. Them history purpose local condition particularly special. Easy win include do impact offer spring as.","estimatedTime":"7 weeks","previewFileId":"154d4d30-85b3-425d-aabf-5445e8e1b409","createdByUserId":"cfd287e5-67af-4b15-abb6-4364099b207c"}'

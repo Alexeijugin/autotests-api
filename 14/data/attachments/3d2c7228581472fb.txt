@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjIzLjM1MzExMSIsInVzZXJfaWQiOiJlZWI5MWVkYS1iMzZlLTQ4ZWUtODcyMC1kNzc1MTg0ZGE4MzEifQ.kFZ1D-gMeEvi53Zbrs1ThjXQNC3BysUQWkxrnm10u7s' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sea talk pick end smile participant her.","courseId":"5fc49f7b-f17c-4980-aecd-357249be17f1","maxScore":94,"minScore":27,"orderIndex":43,"description":"Their central join character network bag. Mother mean dinner church.\nSmall late relationship decade amount. Color test health south deal meeting. Different end enough foreign.","estimatedTime":"3 weeks"}'

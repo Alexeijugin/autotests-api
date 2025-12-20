@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjI1LjE3MjQ5NCIsInVzZXJfaWQiOiI5YmM1NDYyZS0zYmQ0LTQ1NzctYmVmMS0xYWY5NTBiZjA0YTcifQ.VzO1zVRAzeUX67LnDbEdF0SHsK1Q_ayGP8vaGUe2lcA' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article military have pick.","courseId":"fbe3b879-5241-4e7f-b1f2-c1d57255e705","maxScore":86,"minScore":22,"orderIndex":32,"description":"Present small same research sort glass. Director bill professor someone continue thank. Company they player sign actually commercial.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8027a44b-7e1c-4e00-b148-4f8bfce4df9c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjIyLjE4MTU0OSIsInVzZXJfaWQiOiJmMjYxMDhmZC03YjJiLTRhYTctYmEwOC1lNjNhNmE4YWQyZTYifQ.c_S342xWVyRna5KfK9Rx6N0UEkcJCztZvHMSdc9Ep4c' \
+  -H 'content-length: 227' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clearly her push mother dark indicate.","maxScore":94,"minScore":9,"description":"Land wear establish likely avoid describe. Product mother star more Mrs. Girl boy big close difficult drug.","estimatedTime":"9 weeks"}'

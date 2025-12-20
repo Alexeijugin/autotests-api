@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjIxLjU5MDIwOCIsInVzZXJfaWQiOiI5YzM1Y2JmNi04ZTg0LTQ3ZTgtOTdmNC0wNjc1N2EzNmQxNTIifQ.IJCReUqNprlg6Kqs1g-BnxBYV029FW-0WPN_ybmJ0dw' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Husband war health modern.","maxScore":76,"minScore":10,"description":"Want against impact through listen a compare bag. Assume explain so prevent card subject decision southern.\nExpert no assume can another. See yourself cost. Boy often five ahead game sort control.","estimatedTime":"2 weeks","previewFileId":"4f6d56db-9c75-429a-9f93-6552edc0200d","createdByUserId":"9c35cbf6-8e84-47e8-97f4-06757a36d152"}'

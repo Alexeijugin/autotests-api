@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIwVDE0OjU0OjI1Ljc1OTYwNyIsInVzZXJfaWQiOiI4N2NmM2Y5YS0wNDc5LTRkNmUtYmM4MC01ZDNlZDdjZTVhYTMifQ.W2KK0ltlrKc5jvrt1teu1Cjgg_mvAbasnknfdmI2Tgo' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move show official successful prepare.","maxScore":81,"minScore":2,"description":"Long rise other student pass might true. Personal suffer arrive. History without painting firm school perhaps kind describe. Figure somebody western.","estimatedTime":"7 weeks","previewFileId":"95a7e569-4cee-41c4-b6ba-1e487f650999","createdByUserId":"87cf3f9a-0479-4d6e-bc80-5d3ed7ce5aa3"}'
