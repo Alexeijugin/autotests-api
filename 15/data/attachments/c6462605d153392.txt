@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA2OjIyOjAxLjc0NTU2NyIsInVzZXJfaWQiOiI3NjlhMTk2NC00MjNhLTRjNzEtOWVhMC1mODAxYWE4Mjk3NDkifQ.oBcISMldvT4fx9avTHpCcd5_mdxVw5DVlrf0493kI1w' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Save could type where avoid.","maxScore":51,"minScore":29,"description":"Environmental set away on maintain common. Experience tax time have last somebody play move.\nWhether alone agree letter change once. Coach same local technology contain ground necessary.","estimatedTime":"2 weeks","previewFileId":"bdc99246-cf8d-4c5f-84ce-c8ad3ee05f4f","createdByUserId":"769a1964-423a-4c71-9ea0-f801aa829749"}'

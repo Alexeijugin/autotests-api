@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA2OjIyOjAwLjU3MDE4NSIsInVzZXJfaWQiOiIzMzkwMDQ0My0wY2I5LTRjMGMtOTc4Ni01Y2VjMmVhMjM0OWMifQ.UaA0LcMQ643y1i4ZJE9vNXWptOgpPBOt9vxmUycyOT8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Huge whatever strategy budget throw all.","maxScore":96,"minScore":14,"description":"Edge relationship my trouble the grow affect hotel.\nDrive course all month ready my reach. Fact song would. Everybody top expert left character new difficult.","estimatedTime":"1 weeks","previewFileId":"41799e7d-8ae5-4e8a-a09b-03f450d52ac9","createdByUserId":"33900443-0cb9-4c0c-9786-5cec2ea2349c"}'

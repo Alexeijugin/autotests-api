@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA2OjIyOjA0LjcwMzkyOCIsInVzZXJfaWQiOiIyYWE1NGZmYy1lNTAyLTQ3YmYtYWM3ZC0zYmU2NzU1NDkwMTMifQ.doWrDYO_ft6HQMf4EF312rhWvwyg9Lj7gm45n6f1vco' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reduce PM car face laugh doctor bar.","maxScore":52,"minScore":22,"description":"Media stock there I than. Model indeed book town.\nSmile attention few upon bit.\nAppear yourself necessary reveal bank. Story finally professional part especially authority white.","estimatedTime":"5 weeks","previewFileId":"1b7a9f62-b900-4260-90c6-d13434ff3cf4","createdByUserId":"2aa54ffc-e502-47bf-ac7d-3be675549013"}'

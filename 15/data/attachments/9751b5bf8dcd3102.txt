@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA2OjIyOjAyLjkxNDYyOCIsInVzZXJfaWQiOiIxMzc3NGYwNS0xN2I1LTQ2ODgtODhmZi01OWY0MjQ0Zjg1MTMifQ.szRxCHOqsCS2OJQJD8huGBW8-rNusnBLNFcQRNgJXVU' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary discover water seek.","maxScore":71,"minScore":10,"description":"Like mention class site establish top. Good meet explain style professor project. Pay site draw method help.","estimatedTime":"9 weeks","previewFileId":"b13cec55-a9d8-4a0e-90de-69eb397e05f5","createdByUserId":"13774f05-17b5-4688-88ff-59f4244f8513"}'

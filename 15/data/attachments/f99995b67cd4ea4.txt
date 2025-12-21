@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA2OjIyOjAxLjE1NTkyMyIsInVzZXJfaWQiOiJlM2YyZGFmMi00ZDJmLTQzYjAtYTE0My0zOGYwYzg3MjhiZTEifQ.rDKzg5XVxFA_pSq-ZIKaetTHWkWtOVfEbK3PhHlvjVI' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mention million her watch strategy.","maxScore":74,"minScore":13,"description":"History remember soon good which similar heavy. Thousand want specific door.\nParticipant reason pull true determine laugh city great. Brother responsibility worker color exist.","estimatedTime":"9 weeks","previewFileId":"62162401-8e1d-4a98-b181-0797ddd74904","createdByUserId":"e3f2daf2-4d2f-43b0-a143-38f0c8728be1"}'

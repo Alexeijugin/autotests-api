@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTIxVDA2OjIyOjAyLjMzMDI4MiIsInVzZXJfaWQiOiIwOWJjYWJiZC1jMTVmLTQzYTYtYmMxNC02MDhiMDUyMmE2MDcifQ.LyhBGaa7pIVdmhKQl1dFwQn5FUCxGnTYa5wBMu-I2ig' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Protect let personal.","maxScore":90,"minScore":3,"description":"Never paper no high claim community. Election always finally.\nWest wish wife make. Hold field walk same.\nLose conference course senior sit. Resource head employee. Easy bar morning meeting.","estimatedTime":"9 weeks","previewFileId":"8bd3c064-0e9f-48bf-969f-12f07c848186","createdByUserId":"09bcabbd-c15f-43a6-bc14-608b0522a607"}'
